@@ -1,0 +1,18 @@
+# it's unlikely that this file is neeeded, but just in case
+# source this file to ensure the associated files are executable
+
+# source ./CHMOD.txt
+
+chmod u+x ./build.sh
+
+chmod u+x ./support/build.sh
+
+chmod u+x ./adm/build.sh
+chmod u+x ./adm/code/build.sh
+chmod u+x ./adm/code/admevolve.sh
+chmod u+x ./adm/code/adminitial.sh
+
+chmod u+x ./bssn/build.sh
+chmod u+x ./bssn/code/build.sh
+chmod u+x ./bssn/code/bssnevolve.sh
+chmod u+x ./bssn/code/bssninitial.sh

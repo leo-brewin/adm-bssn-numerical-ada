@@ -1,0 +1,81 @@
+-- 15-Nov-2024
+
+----------------------------------------------------------------------------
+bin/adminitial --GridNum 8x8x8
+
+bin/admevolve --NumTasks 8 --UseRendezvous
+
+> Elapsed time (secs)    :  5.558E-01
+> Time per node per step :  2.714E-06
+
+
+bin/admevolve --NumTasks 8 --UseProtObject
+
+> Elapsed time (secs)    :  4.915E-01
+> Time per node per step :  2.400E-06
+
+
+bin/admevolve --NumTasks 8 --UseTransientTasks
+
+> Elapsed time (secs)    :  1.860E+00
+> Time per node per step :  9.081E-06
+
+----------------------------------------------------------------------------
+bin/adminitial --GridNum 16x16x16
+
+bin/admevolve --NumTasks 8 --UseRendezvous
+
+> Elapsed time (secs)    :  9.157E-01
+> Time per node per step :  5.589E-07
+
+
+bin/admevolve --NumTasks 8 --UseProtObject
+
+> Elapsed time (secs)    :  8.589E-01
+> Time per node per step :  5.242E-07
+
+
+bin/admevolve --NumTasks 8 --UseTransientTasks
+
+> Elapsed time (secs)    :  2.644E+00
+> Time per node per step :  1.614E-06
+
+----------------------------------------------------------------------------
+bin/adminitial --GridNum 32x32x32
+
+bin/admevolve --NumTasks 8 --UseRendezvous
+
+> Elapsed time (secs)    :  4.268E+00
+> Time per node per step :  3.257E-07
+
+
+bin/admevolve --NumTasks 8 --UseProtObject
+
+> Elapsed time (secs)    :  4.235E+00
+> Time per node per step :  3.231E-07
+
+
+bin/admevolve --NumTasks 8 --UseTransientTasks
+
+> Elapsed time (secs)    :  6.129E+00
+> Time per node per step :  4.676E-07
+
+----------------------------------------------------------------------------
+bin/adminitial --GridNum 64x64x64
+
+bin/admevolve --NumTasks 8 --UseRendezvous
+
+> Elapsed time (secs)    :  3.102E+01
+> Time per node per step :  2.959E-07
+
+
+bin/admevolve --NumTasks 8 --UseProtObject
+
+> Elapsed time (secs)    :  3.043E+01
+> Time per node per step :  2.902E-07
+
+
+bin/admevolve --NumTasks 8 --UseTransientTasks
+
+> Elapsed time (secs)    :  3.305E+01
+> Time per node per step :  3.152E-07

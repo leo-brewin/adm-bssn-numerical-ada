@@ -1,0 +1,13 @@
+.DS_Store
+.tm_properties
+*.lb
+*.log
+*.toc
+*.out
+*.aux
+*.cut
+*.blg
+*.synctex.gz
+sync-ssd.sh
+private
+alire

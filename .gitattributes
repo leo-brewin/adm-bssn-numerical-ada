@@ -1,0 +1,16 @@
+doc/* linguist-documentation
+pdf/* linguist-documentation
+textmate/* linguist-vendored
+adm/code/gnatdoc/docs/* linguist-vendored
+bssn/code/gnatdoc/docs/* linguist-vendored
+*.cdb linguist-language=Text
+*.ad linguist-language=Ada
+*.adt linguist-language=Ada
+*.cdbtex linguist-generated=true
+*.mattex linguist-generated=true
+*.mpltex linguist-generated=true
+*.mthtex linguist-generated=true
+*.pytex  linguist-generated=true
+*.pdf    linguist-generated=true
+*.js linguist-vendored
+*.css linguist-vendored
