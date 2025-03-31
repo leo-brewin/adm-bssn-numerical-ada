@@ -22,7 +22,7 @@ bin/admevolve $* \
    --NumTasks 8 \
    --OutputDir results \
    --UseRendezvous \
-   --DataDir data | tee admevolve.log
+   --DataDir data | tee adm-history.txt
 
 # bin/admevolve $* \
 #    --Courant 0.25 \
@@ -33,7 +33,7 @@ bin/admevolve $* \
 #    --NumTasks 8 \
 #    --OutputDir results \
 #    --UseProtObject \
-#    --DataDir data | tee admevolve.log
+#    --DataDir data | tee adm-history.txt
 
 # bin/admevolve $* \
 #    --Courant 0.25 \
@@ -44,7 +44,7 @@ bin/admevolve $* \
 #    --NumTasks 8 \
 #    --OutputDir results \
 #    --UseTransientTasks \
-#    --DataDir data | tee admevolve.log
+#    --DataDir data | tee adm-history.txt
 
 # bin/admevolve $* \
 #    --Courant 0.25 \
@@ -55,4 +55,4 @@ bin/admevolve $* \
 #    --NumTasks 8 \
 #    --OutputDir results \
 #    --UseSyncBarriers \
-#    --DataDir data | tee admevolve.log
+#    --DataDir data | tee adm-history.txt

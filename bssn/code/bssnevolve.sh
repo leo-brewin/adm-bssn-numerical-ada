@@ -22,7 +22,7 @@ bin/bssnevolve $* \
    --NumTasks 8 \
    --OutputDir results \
    --UseRendezvous \
-   --DataDir data | tee bssnevolve.log
+   --DataDir data | tee bssn-history.txt
 
 # bin/bssnevolve $* \
 #    --Courant 0.25 \
@@ -33,7 +33,7 @@ bin/bssnevolve $* \
 #    --NumTasks 8 \
 #    --OutputDir results \
 #    --UseProtObject \
-#    --DataDir data | tee bssnevolve.log
+#    --DataDir data | tee bssn-history.txt
 
 # bin/bssnevolve $* \
 #    --Courant 0.25 \
@@ -44,7 +44,7 @@ bin/bssnevolve $* \
 #    --NumTasks 8 \
 #    --OutputDir results \
 #    --UseTransientTasks \
-#    --DataDir data | tee bssnevolve.log
+#    --DataDir data | tee bssn-history.txt
 
 # bin/bssnevolve $* \
 #    --Courant 0.25 \
@@ -55,4 +55,4 @@ bin/bssnevolve $* \
 #    --NumTasks 8 \
 #    --OutputDir results \
 #    --UseSyncBarriers \
-#    --DataDir data | tee bssnevolve.log
+#    --DataDir data | tee bssn-history.txt

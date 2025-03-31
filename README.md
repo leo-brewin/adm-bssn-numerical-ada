@@ -10,7 +10,7 @@ It's really very simple, just use `make` to start the ball rolling.
 $ make
 ```
 
-If all goes well (as it should), you will see two short summaries of results on the terminal. These summaries are also saved as `adm/code/admevolve.log` and `bssn/code/bssnevolve.log` which you can compare against the expected results in the `exepcted/` directory. There should also be a new `adm-bssn-plots.pdf` file (which should match exactly its counterpart in the `exepected/` directory).
+If all goes well (as it should), you will see two short summaries of results on the terminal. These summaries are also saved as `adm/code/adm-history.txt` and `bssn/code/bssn-history.txt` which you can compare against the expected results in the `exepcted/` directory. There should also be a new `adm-bssn-plots.pdf` file (which should match exactly its counterpart in the `exepected/` directory).
 
 There are a number of other targets in the Makefile that you might find useful (e.g., `make code` to just compile but not run the codes).
 
@@ -24,7 +24,7 @@ $ source CHMOD.txt
 
 There are four Ada programs, two to set some initial data (`adm/code/adminitial.adb` and `bssn/code/bssninitial.adb`) and two to evolove that data (`adm/code/admevolve.adb` and `bssn/code/bssnevolve.adb`).
 
-Each program can be compiled and run using a like named script. So to compile and run the `admevolve.adb' code, you can use
+Each program can be compiled and run using a like named script. So to compile and run the `admevolve.adb` code, you can use
 
 ```sh
 $ (cd adm/code; admevolve.sh)
@@ -42,6 +42,7 @@ $ (cd adm/code; admevolve.sh --Help)
 
 All files in this collection are distributed under the [MIT][10] license. See the file LICENSE.txt for the full details.
 
-[1]: https://github.com/leo-brewin/adm-bssn-numerical
-[2]: https://cadabra.science
-[3]: https://www.sympy.org/
+ [1]: https://github.com/leo-brewin/adm-bssn-numerical
+ [2]: https://cadabra.science
+ [3]: https://www.sympy.org/
+[10]: https://opensource.org/licenses/MIT
