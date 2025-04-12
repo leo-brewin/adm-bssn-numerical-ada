@@ -1,4 +1,4 @@
-18:05 31-Mar-2025
+10:55 12-Apr-2025
 bin/bssnevolve --Courant 0.25 --Tfinal 11.0 --PrintCycle 10 --PrintTimeStep 11.0 --MaxTimeSteps 40000 --NumTasks 8 --OutputDir results --UseRendezvous --DataDir data
 -----------------------------------------------------------------------------------
  loop    time       step        gxx        gzz        Kxx        Kzz       Ham.    
@@ -45,5 +45,5 @@ bin/bssnevolve --Courant 0.25 --Tfinal 11.0 --PrintCycle 10 --PrintTimeStep 11.0
   390  1.075E+01  2.500E-02  2.373E+01  2.053E-01 -1.471E+00  6.366E-03  6.238E-09
   400  1.100E+01  2.500E-02  2.446E+01  2.022E-01 -1.483E+00  6.127E-03  6.144E-09
 -----------------------------------------------------------------------------------
-> Elapsed time (secs)    :  5.492E-01
-> Time per node per step :  2.682E-06
+> Elapsed time (secs)    :  5.603E-01
+> Time per node per step :  2.736E-06
